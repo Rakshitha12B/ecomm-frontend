@@ -1,4 +1,6 @@
-const API_URL = "http://localhost:8080";
+const API_URL = "https://ecomm-backend-10en.onrender.com";
+
+
 
 export async function login(credentials) {
   const response = await fetch(`${API_URL}/login`, {
